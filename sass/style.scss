@@ -1,0 +1,28 @@
+/*
+Theme Name: StyleWP Starter
+Theme URI: stylewp.net
+Author: Bojan Zlatanovic
+Author URI: stylewp.net
+Description: Bootstrap WordPress Theme
+Version: 5.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: stylewp
+Tags:
+ 
+*/
+
+/*--------------------------------------------------------------
+# Variables
+--------------------------------------------------------------*/
+@import "vars/vars";
+
+/*--------------------------------------------------------------
+# Bootstrap
+--------------------------------------------------------------*/
+@import "bootstrap";
+
+/*--------------------------------------------------------------
+# Theme Styles and Layout
+--------------------------------------------------------------*/
+@import "site/site";

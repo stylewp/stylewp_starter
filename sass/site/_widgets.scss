@@ -1,0 +1,31 @@
+.widget {
+  margin: 0 0 2rem;
+
+  /* Make sure select elements fit in widgets. */
+  select {
+    max-width: 100%;
+  }
+
+  #wp-calendar {
+    width: 100%;
+  }
+ 
+  .tagcloud,
+  .textwidget,
+  .calendar_wrap {
+    padding: 0;
+  }
+
+  ul {
+    padding:0;
+    margin-bottom: 0;
+  }
+
+  &.widget_search {
+    border: none;
+  }
+
+  .tagcloud a {
+    margin-bottom: 0.5rem;
+  }
+}
