@@ -81,7 +81,9 @@ function stylewp_setup() {
 	// Add editor styles
 	//add_theme_support('editor-styles');
 
- 
+}
+endif;
+add_action( 'after_setup_theme', 'stylewp_setup' ); 
 
 /**
  * Set the content width in pixels, based on the theme's design and stylesheet.
